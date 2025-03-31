@@ -112,4 +112,21 @@ class Cat extends Animal {
     }
 }
 
-/
+// Question 2a: Abstraction
+abstract class Appliance {
+    public abstract void turnOn();
+}
+
+class Fan extends Appliance {
+    @Override
+    public void turnOn() {
+        System.out.println("Fan is spinning now");
+    }
+}
+
+class TV extends Appliance {
+    @Override
+    public void turnOn() {
+        System.out.println("TV is showing programs now");
+    }
+}
