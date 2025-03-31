@@ -4,7 +4,7 @@ public class CAT2_Solutions {
     public static void main(String[] args) {
         // Question 1a: Encapsulation demonstration
         Student student = new Student();
-        student.setName("Masud");
+        student.setName("John Doe");
         student.setGrade(85);
         System.out.println("Student: " + student.getName() + ", Grade: " + student.getGrade());
         
